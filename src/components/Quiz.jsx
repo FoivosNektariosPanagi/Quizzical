@@ -57,12 +57,7 @@ export default function Quiz(props) {
       <div className="error_carts">
         <div className="error_carts__top">
           <div>You're offline</div>
-          <img
-            src={"../public/assets/🤷_♂️.svg"}
-            alt="🤷"
-            width="40"
-            height="40"
-          />
+          <img src={"/🤷_♂️.svg"} alt="🤷" width="40" height="40" />
         </div>
         <h3>Thus you can't request new questions</h3>
         <div>
@@ -82,12 +77,7 @@ export default function Quiz(props) {
             There are no quiz questions with this data please change your
             settings
           </div>
-          <img
-            src={"../public/assets/🤷_♂️.svg"}
-            alt="🤷"
-            width="40"
-            height="40"
-          />
+          <img src={"/🤷_♂️.svg"} alt="🤷" width="40" height="40" />
         </div>
 
         <button onClick={props.go_start} className=" simple_button ">
@@ -117,7 +107,7 @@ export default function Quiz(props) {
   return (
     <div className="quiz">
       <div className="quiz__header">
-        <h1>Quizical 3:50</h1>
+        <h1>Quizical</h1>
         <img
           onClick={props.go_settings}
           className="gear_icon"
@@ -130,7 +120,7 @@ export default function Quiz(props) {
         <img
           onClick={props.go_start}
           className="xicon"
-          src="/X_icon.svg"
+          src={"/X_icon.svg"}
           alt="X"
           width="32"
           height="32"
@@ -142,12 +132,7 @@ export default function Quiz(props) {
           <div className="score">
             <div className="score__top">
               <h1>The quiz is finished!</h1>
-              <img
-                src={"../public/assets/🏆.svg"}
-                alt="🏆"
-                width="40"
-                height="40"
-              />
+              <img src={"/🏆.svg"} alt="🏆" width="40" height="40" />
             </div>
             <div className="score__bottom">
               <h2>

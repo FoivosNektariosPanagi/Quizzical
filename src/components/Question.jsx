@@ -70,9 +70,7 @@ export default function Question({ question, submited, setScore }) {
           <img
             className="result_icon"
             src={
-              selectedAnswer === question.correct_answer
-                ? "../public/assets/✅.svg"
-                : "../public/assets/🚫.svg"
+              selectedAnswer === question.correct_answer ? "/✅.svg" : "/🚫.svg"
             }
             alt={selectedAnswer === question.correct_answer ? "✅" : "🚫"}
             width="40"

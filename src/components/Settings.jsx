@@ -38,7 +38,7 @@ export default function Settings(props) {
         <img
           onClick={props.go_start}
           className="xicon"
-          src={"../public/assets/X_icon.svg"}
+          src={"/X_icon.svg"}
           alt="X"
           width="32"
           height="32"
