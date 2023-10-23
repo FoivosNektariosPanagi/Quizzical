@@ -58,7 +58,7 @@ export default function Quiz(props) {
         <div className="error_carts__top">
           <div>You're offline</div>
           <img
-            src={"../src/assets/🤷_♂️.svg"}
+            src={"../public/assets/🤷_♂️.svg"}
             alt="🤷"
             width="40"
             height="40"
@@ -83,7 +83,7 @@ export default function Quiz(props) {
             settings
           </div>
           <img
-            src={"../src/assets/🤷_♂️.svg"}
+            src={"../public/assets/🤷_♂️.svg"}
             alt="🤷"
             width="40"
             height="40"
@@ -121,7 +121,7 @@ export default function Quiz(props) {
         <img
           onClick={props.go_settings}
           className="gear_icon"
-          src={"/src/assets/gear_icon.svg"}
+          src={"../public/assets/gear_icon.svg"}
           alt="Gear"
           width="32"
           height="32"
@@ -130,7 +130,7 @@ export default function Quiz(props) {
         <img
           onClick={props.go_start}
           className="xicon"
-          src={"/src/assets/X_icon.svg"}
+          src={"../public/assets/X_icon.svg"}
           alt="X"
           width="32"
           height="32"
@@ -143,7 +143,7 @@ export default function Quiz(props) {
             <div className="score__top">
               <h1>The quiz is finished!</h1>
               <img
-                src={"../src/assets/🏆.svg"}
+                src={"../public/assets/🏆.svg"}
                 alt="🏆"
                 width="40"
                 height="40"

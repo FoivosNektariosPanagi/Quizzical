@@ -71,8 +71,8 @@ export default function Question({ question, submited, setScore }) {
             className="result_icon"
             src={
               selectedAnswer === question.correct_answer
-                ? "../src/assets/✅.svg"
-                : "../src/assets/🚫.svg"
+                ? "../public/assets/✅.svg"
+                : "../public/assets/🚫.svg"
             }
             alt={selectedAnswer === question.correct_answer ? "✅" : "🚫"}
             width="40"
