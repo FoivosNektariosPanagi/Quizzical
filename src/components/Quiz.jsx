@@ -122,7 +122,7 @@ export default function Quiz(props) {
           onClick={props.go_settings}
           className="gear_icon"
           src={"/src/assets/gear_icon.svg"}
-          alt="X"
+          alt="Gear"
           width="32"
           height="32"
         />
@@ -130,7 +130,7 @@ export default function Quiz(props) {
         <img
           onClick={props.go_start}
           className="xicon"
-          src={"../src/assets/X_icon.svg"}
+          src={"/src/assets/X_icon.svg"}
           alt="X"
           width="32"
           height="32"
