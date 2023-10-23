@@ -117,7 +117,7 @@ export default function Quiz(props) {
   return (
     <div className="quiz">
       <div className="quiz__header">
-        <h1>Quizical no</h1>
+        <h1>Quizical</h1>
         <img
           onClick={props.go_settings}
           className="gear_icon"
