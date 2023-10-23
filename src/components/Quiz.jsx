@@ -121,7 +121,7 @@ export default function Quiz(props) {
         <img
           onClick={props.go_settings}
           className="gear_icon"
-          src={"../src/assets/gear_icon.svg"}
+          src={"/src/assets/gear_icon.svg"}
           alt="X"
           width="32"
           height="32"
