@@ -21,11 +21,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80vw;
   gap: 20px;
+
   &__tittle {
     font-family: Inter;
-    font-size: 80px;
+    font-size: 4rem;
     font-weight: 900;
     line-height: 97px;
     letter-spacing: 0em;
@@ -33,7 +33,7 @@ body {
   }
 
   &__button {
-    width: 378px;
+    width: 70vw;
     height: 80px;
     border-radius: 16px;
     border-color: $blue-accent;
