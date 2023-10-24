@@ -128,10 +128,7 @@ export default function Settings(props) {
           <option value="boolean">True / False</option>
         </select>
         <br />
-        <button
-          onClick={props.go_quiz}
-          className="start__button start__button__start"
-        >
+        <button onClick={props.go_quiz} className="simple_button">
           START QUIZ
         </button>
       </div>

@@ -135,12 +135,14 @@ export default function Quiz(props) {
               <img src={"/🏆.svg"} alt="🏆" width="40" height="40" />
             </div>
             <div className="score__bottom">
-              <h2>
-                Correct answers:{" "}
-                <span className="score__count">
-                  {score} / {props.settings.questionsAmount}
-                </span>
-              </h2>
+              <div className="score__bottom__div">
+                <h2>
+                  Correct answers:{" "}
+                  <div className="score__count">
+                    {score} / {props.settings.questionsAmount}
+                  </div>
+                </h2>
+              </div>
               <button onClick={forceRerender} className="simple_button">
                 Start New Game
               </button>

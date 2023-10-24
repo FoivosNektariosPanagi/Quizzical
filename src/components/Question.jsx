@@ -55,17 +55,11 @@ export default function Question({ question, submited, setScore }) {
           : "")
       }
     >
-      <h3 dangerouslySetInnerHTML={{ __html: question.question }} />
-      <div className="buttonsAndIcon">
-        {incorrectAnswers.map((answer, index) => (
-          <button
-            key={index}
-            onClick={() => handleButtonClick(answer)}
-            className={"default__card__button " + getButtonClass(answer)}
-            dangerouslySetInnerHTML={{ __html: answer }}
-          />
-        ))}
-
+      <div className="questionAndIcon">
+        <h3
+          className="default__card__question"
+          dangerouslySetInnerHTML={{ __html: question.question }}
+        />
         {submited ? (
           <img
             className="result_icon"
@@ -79,6 +73,16 @@ export default function Question({ question, submited, setScore }) {
         ) : (
           ""
         )}
+      </div>
+      <div className="buttonsAndIcon">
+        {incorrectAnswers.map((answer, index) => (
+          <button
+            key={index}
+            onClick={() => handleButtonClick(answer)}
+            className={"default__card__button " + getButtonClass(answer)}
+            dangerouslySetInnerHTML={{ __html: answer }}
+          />
+        ))}
       </div>
       <div className="categorys_div">
         <span className="categorys">{question.category}</span>
