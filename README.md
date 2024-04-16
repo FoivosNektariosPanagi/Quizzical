@@ -24,7 +24,7 @@ Before you can run this React app, make sure you have the following software ins
 2. Change your working directory to the cloned repository:
 
    ```
-   cd react-app
+   cd Quizzical
    ```
 
 3. Install the required dependencies using npm:
