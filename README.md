@@ -1,7 +1,7 @@
 # React App Readme
 Play The Game : https://quizzical-one-dusky.vercel.app/
 
-This repository contains "Quizical," a React application I developed as a solo project. The project was created solely with reference to Figma designs, and I did not receive any other assistance. The Figma designs can be found [here](https://www.figma.com/file/0SIScG6N67cgfIvsY5cQng/Quizzical-App?type=design&node-id=0-1&mode=design&t=FKnMn6dWEW67TgiS-0).
+This repository contains "Quizical," a React application I developed as a solo project, only using components without router and pages. The project was created solely with reference to Figma designs, and I did not receive any other assistance. The Figma designs can be found [here](https://www.figma.com/file/0SIScG6N67cgfIvsY5cQng/Quizzical-App?type=design&node-id=0-1&mode=design&t=FKnMn6dWEW67TgiS-0).
 
 To run this application locally, please follow the instructions below.
 
